@@ -1,5 +1,13 @@
 <!ELEMENT equipos (club+)>
+
 <!ELEMENT club (nombre,ciudad,entrenador,jugadores)>
+
+<!ELEMENT nombre (#PCDATA)><!--PC DATA ES PARA QUE PUEDA TENER CUALQUIER VALOR-->
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT entrenador EMPTY><!--EMPTY PARA QUE SEA UN ATRIBUTO VACIO-->
+
 <!ELEMENT jugadores (jugador+)>
+
 <!ELEMENT jugador (nombre,nacionalidad)>
-<!ATTLIST jugador posicion (#PCDATA)><!--PC DATA ES PARA QUE PUEDA TENER CUALQUIER VALOR-->
+<!ELEMENT nacionalidad (#PCDATA)>
+<!ATTLIST jugador posicion (portero | defensa | medio | delantero | lateral_izquierdo) #REQUIRED><!--REQUIRED PARA QUE SEA OBLIGATORIA-->
