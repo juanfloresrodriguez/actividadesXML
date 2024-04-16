@@ -1,0 +1,2 @@
+<!ELEMENT equipos (equipo+)>
+<!ELEMENT club (nombre,ciudad,entrenador,jugadores+)>
