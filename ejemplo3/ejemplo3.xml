@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos SYSTEM "equipo.dtd">
+<!-- 
+    equipo = 1
+    equipo+ = 1 o más equipos
+    equipo? =  0 o 1 equipos
+    equipo* = 0,1 o muhcos equipos
+ 
+-->
+
+
 <equipos>
     <!--Equipo 1-->
     <club>
