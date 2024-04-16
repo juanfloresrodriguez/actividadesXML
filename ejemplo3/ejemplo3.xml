@@ -5,27 +5,31 @@
         <nombre>Cádiz C.F.</nombre>
         <ciudad>Cádiz</ciudad>
         <entrenador></entrenador>
-        <jugador posicion="delantero">
-            <nombre>Jose Alberto Gónzalez Barillas "Mágico Gonzalez"</nombre>
-            <nacionalidad>El Salvador</nacionalidad>
-        </jugador>
-        <jugador posicion="portero">
-            <nombre>Geremias "Conan" Ledesma</nombre>
-            <nacionalidad>Argentina</nacionalidad>
-        </jugador>
+        <jugadores>
+            <jugador posicion="delantero">
+                <nombre>Jose Alberto Gónzalez Barillas "Mágico Gonzalez"</nombre>
+                <nacionalidad>El Salvador</nacionalidad>
+            </jugador>
+            <jugador posicion="portero">
+                <nombre>Geremias "Conan" Ledesma</nombre>
+                <nacionalidad>Argentina</nacionalidad>
+            </jugador>
+        </jugadores>
     </club>
     <!--Equipo 2-->
     <club>
         <nombre>Chiclana C.F.</nombre>
         <ciudad>Chiclana de la Frontera</ciudad>
         <entrenador></entrenador>
-        <jugador posicion="lateral_izquierdo">
-            <nombre>Antonio Rodríguez Reyes</nombre>
-            <nacionalidad>España</nacionalidad>
-        </jugador>
-        <jugador posicion="portero">
-            <nombre>Clemente Rodríguez Rodríguez</nombre>
-            <nacionalidad>España</nacionalidad>
-        </jugador>
+        <jugadores>
+            <jugador posicion="lateral_izquierdo">
+                <nombre>Antonio Rodríguez Reyes</nombre>
+                <nacionalidad>España</nacionalidad>
+            </jugador>
+            <jugador posicion="portero">
+                <nombre>Clemente Rodríguez Rodríguez</nombre>
+                <nacionalidad>España</nacionalidad>
+            </jugador>
+        </jugadores>
     </club>
 </equipos>
