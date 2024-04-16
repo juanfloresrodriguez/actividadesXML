@@ -2,3 +2,4 @@
 <!ELEMENT club (nombre,ciudad,entrenador,jugadores)>
 <!ELEMENT jugadores (jugador+)>
 <!ELEMENT jugador (nombre,nacionalidad)>
+<!ATTLIST jugador posicion (#PCDATA)><!--PC DATA ES PARA QUE PUEDA TENER CUALQUIER VALOR-->
