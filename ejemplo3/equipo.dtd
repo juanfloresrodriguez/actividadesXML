@@ -1,2 +1,4 @@
-<!ELEMENT equipos (equipo+)>
-<!ELEMENT club (nombre,ciudad,entrenador,jugadores+)>
+<!ELEMENT equipos (club+)>
+<!ELEMENT club (nombre,ciudad,entrenador,jugadores)>
+<!ELEMENT jugadores (jugador+)>
+<!ELEMENT jugador (nombre,nacionalidad)>
