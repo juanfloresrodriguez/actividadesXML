@@ -1,7 +1,0 @@
-<!ELEMENT articulos (articulo+)>
-<!ELEMENT articulo (nombre,codigo,fabricante)>
-<!ATTLIST codigo precio ID #PCDATA>
-
-<!ELEMENT nombre (#PCDATA) #REQUIRED>
-<!ELEMENT codigo (#PCDATA) #REQUIRED>
-<!ELEMENT fabricante (#PCDATA) #REQUIRED>
