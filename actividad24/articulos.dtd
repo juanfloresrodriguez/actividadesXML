@@ -7,5 +7,5 @@
 <!ELEMENT codigo (#PCDATA)>
 <!ELEMENT fabricante (#PCDATA)>
 
-<!--<!ATTLIST codigo precio ID #PCDATA>-->
-<!ATTLIST codigo precio (11.9  | 5.6 | 7.2) #REQUIRED>
+<!ATTLIST codigo precio CDATA #REQUIRED>
+<!--<!ATTLIST codigo precio (11.9  | 5.6 | 7.2) #REQUIRED>-->
