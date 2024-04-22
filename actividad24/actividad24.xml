@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE articulos SYSTEM "articulos.dtd">
+
+<articulos>
+    <articulo>
+        <nombre>Cremas Manoli</nombre>
+        <codigo precio="11.9">11130</codigo>
+        <fabricante>Manoli and CO</fabricante>
+    </articulo>
+    <articulo>
+        <nombre>Potajes Chari</nombre>
+        <codigo precio="5.6">11002</codigo>
+        <fabricante>Alimentación Chari</fabricante>
+    </articulo>
+    <articulo>
+        <nombre>Berza gitana</nombre>
+        <codigo precio="7.2">11401</codigo>
+        <fabricante>Guisos Jerez</fabricante>
+    </articulo>
+</articulos>
