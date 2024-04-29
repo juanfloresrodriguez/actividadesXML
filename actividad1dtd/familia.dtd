@@ -1,0 +1,20 @@
+<!ELEMENT familia ((padre | madre)*,(madre | padre)*,hijos)>
+<!ATTLIST familia codigo CDATA #REQUIRED>
+
+<!ELEMENT padre (nombre, apellido, apellido, dni?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+
+<!ELEMENT madre (nombre, apellido, apellido, dni?)>
+
+<!ELEMENT hijos ((hijo | hija)+)>
+
+
+<!ELEMENT hijo (nombre, apellido, apellido, dni?, edad?)>
+<!ELEMENT edad (#PCDATA)>
+<!ATTLIST hijo pos NMTOKEN #REQUIRED>
+
+
+<!ELEMENT hija (nombre, apellido, apellido, dni?, edad?)>
+<!ATTLIST hija pos NMTOKEN #REQUIRED>
