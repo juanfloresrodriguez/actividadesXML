@@ -1,0 +1,8 @@
+<!ELEMENT tienda (producto+)>
+
+
+<!ELEMENT producto (nombre, precio, categoria)>
+<!ATTLIST producto id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>

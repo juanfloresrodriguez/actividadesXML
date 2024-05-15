@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE tienda SYSTEM "C:\Users\juane\Documents\GitHub\XML\actividadesXML\examen\ejercicio2\tienda.dtd">
+
+<tienda>
+
+    <producto id="p1">
+
+        <nombre>Manzana</nombre>
+
+        <precio>0.5</precio>
+
+        <categoria>Fruta</categoria>
+
+    </producto>
+
+    <producto id="p2">
+
+        <nombre>Leche</nombre>
+
+        <precio>1.2</precio>
+
+        <categoria>Lácteos</categoria>
+
+    </producto>
+
+</tienda>

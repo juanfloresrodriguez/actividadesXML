@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<biblioteca>
+    <libro año_publicacion="2024">
+        <titulo>El cantar de los pajaros</titulo>
+        <autor>Manuel Rodríguez</autor>
+        <nacionalidad>Argentina</nacionalidad>
+        <palabras_clave>Pajaros, Cantar, manuel, 2024</palabras_clave>
+    </libro>
+    <libro año_publicacion="2015">
+        <titulo>Mágico Gonzales. La leyenda del Cádiz</titulo>
+        <autor>José Andres Perez</autor>
+        <nacionalidad>España</nacionalidad>
+        <palabras_clave>magico, futbol, cadiz CF, 2015</palabras_clave>
+    </libro>
+</biblioteca>

@@ -1,0 +1,26 @@
+Dada una estructura de documento XML que representa una lista de coches
+en un concesionario, donde cada coche tiene una marca, modelo,
+año de fabricación, precio y referencia,
+escribe tanto un DTD como un esquema XSD para validar este documento.
+
+XML ejemplo:
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<concesionario>
+
+  <coche REF="23456">
+
+    <marca>Toyota</marca>
+
+    <modelo>Corolla</modelo>
+
+    <año>2024</año>
+
+    <precio>20000</precio>
+
+  </coche>
+
+  <!-- Más coches... -->
+
+</concesionario>

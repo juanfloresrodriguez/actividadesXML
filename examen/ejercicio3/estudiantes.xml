@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<estudiantes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="estudiantes.xsd">
+
+    <estudiante>
+
+        <nombre>Juan Pérez</nombre>
+
+        <fechaNacimiento>2000-01-01</fechaNacimiento>
+
+        <grado>Ingeniería Informática</grado>
+
+        <cursos>
+
+            <curso>
+
+                <nombre>Programación</nombre>
+
+                <profesor>María López</profesor>
+
+                <calificacion>8.5</calificacion>
+
+            </curso>
+
+        </cursos>
+
+    </estudiante>
+
+</estudiantes>

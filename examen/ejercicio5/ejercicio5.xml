@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE concesionario SYSTEM "concesionario.dtd">-->
+
+<concesionario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="concesionario.xsd">
+
+    <coche REF="23456">
+
+        <marca>Toyota</marca>
+
+        <modelo>Corolla</modelo>
+
+        <año>2024</año>
+
+        <precio>20000</precio>
+
+    </coche>
+
+    <!-- Más coches... -->
+
+</concesionario>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<arbol>
+    <persona>
+        <nombre>Manuel Perez Muñoz</nombre>
+        <fecha_nacimiento>1895-05-12</fecha_nacimiento>
+        <hijos>
+            <hijo>
+                <persona>
+                    <nombre>Jonathan Jesus Perez Perez</nombre>
+                    <fehca_nacimiento>1920-02-28</fehca_nacimiento>
+                </persona>
+            </hijo>
+        </hijos>
+    </persona>
+</arbol>
